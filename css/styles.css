@@ -1,0 +1,133 @@
+.big-heading{  font-family: 'Montserrat';
+      font-size: 3.5rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: 900;}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    position: relative;
+    z-index: 0;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.cta-text
+{  font-family: 'Montserrat';  
+    font-size: 3.5rem;  
+    line-height: 1.5;color: white;
+    font-weight: 900;
+     margin: 3% 0% 7%;}
+
+.brand{
+    font-family: 'Montserrat';font-size: 2rem;font-weight:700 ;color: #fff; 
+}
+.container-fluid{
+    padding: 0% 15% ;
+}
+.brand{
+    position: relative;
+}
+.phone_image{
+    width: 50%;
+    transform: rotate(20deg);
+    position: relative;
+    top: 25%;
+    left: 30%;
+    z-index:1 ;
+}
+.nav-item{
+    font-size: larger;
+    color: #8f8f8f;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 3% 0%;
+}
+.feature-text{
+    font-size: 1.5rem;
+    font-family:'Montserrat' ;
+    font-weight: 700;
+}
+.feature-paragraph{
+    color: #8f8f8f;
+    line-height: 1.25;
+    font-size: large;
+}
+.feature-logo{
+    color:#ef8172
+}
+.feature-logo:hover{
+    color:#ff4c68
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+   padding: 7% 15%; 
+}
+.card{
+    margin: 10px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.my-list{
+    margin-left: auto;
+    color: #8f8f8f;
+}
+.nav-link{
+    color: #8f8f8f;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+}
+.invis{
+    visibility: hidden;
+}
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .phone_image {
+        position: static;
+        transform: rotate(0deg);
+    }
+    
+}
+.foot-image{
+    color: #8f8f8f;
+}
